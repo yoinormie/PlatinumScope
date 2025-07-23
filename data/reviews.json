@@ -1,0 +1,23 @@
+{
+    "milk_inside_a_bag_of_milk": {
+        "titulo": "Milk inside a bag of milk inside a bag of milk",
+        "ficha_tecnica": {
+            "plataformas": "PC",
+            "desarrollador": "Nikita Kryukov",
+            "editor": "Missing Calm",
+            "requisitos_minimos": {
+                "cpu": "Intel i3",
+                "ram": "1 GB",
+                "so": "Windows 7",
+                "gpu": "N/A",
+                "disco": "250 MB"
+            },
+            "sinopsis": "Una breve historia sobre los retos que pueden suponer las pequeñas cosas cotidianas. Ayuda a la chica a comprar leche, sé el primero en no decepcionarla. El juego es una pequeña novela visual, que muestra tanto divertidas abstracciones y juegos de palabras como dolorosos episodios psicológicos. Afirmar que la historia está basada en hechos reales sería demasiado específico, así que es más fácil fingir que se trata sólo de un conjunto de abstracciones y juegos de palabras. En primer lugar, se trata de una manipulación artística con la palabra y la forma, sólo entonces - un juego."
+        },
+        "opinion": {
+            "historia" : "La historia de este juego la verdad es que me pareció de lo más raro. No me esperaba que la compra de una \"bolsa de leche\" diese para contar la historia de una chica que tiene alucinaciones y problemas para salir al mundo exterior. La verdad es que, aunque sea un juego muy, muy corto, es bastante interesante, ya que a partir de esa historia tan comprimida deja escapar muchas cosas (ansiedad, miedo, soledad, etc...). Incluso se pueden sacar teorías sobre ella, dejando muchas historias creadas por la comunidad que, dejando obviamente las pochas que parecen de Wattpad, son bastante interesantes de leer.",
+            "logros" : "Los logros son prácticamente jugar, pasarte el juego y, si no recuerdo mal, perder y que se reinicie la partida. No hay nada complicado, solo jugar y disfrutar de la historia.",
+            "conclusiones" : "Creo que, si eres fan de las novelas gráficas o de los juegos turbios, te podrá gustar. Puede que no sea el más agradable visualmente pero creo que también le da un toque. Aparte de esto, el precio no es para nada elevado, por lo que es algo que te puede distraer un rato. Yo lo jugué después de meter muchos shooters (creo que fuera CSGO, TF2 y otros de historia) y la verdad se sintió como cuando hace viento fresco en verano. \nEn definitiva, creo que es una buena compra, pero solo si eres afín a este típo de títulos (o si te gustan los fanfics montandose historias)."
+        }
+    }
+}
