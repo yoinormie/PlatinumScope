@@ -2,7 +2,7 @@
     "milk_inside_a_bag_of_milk": {
         "titulo": "Milk inside a bag of milk inside a bag of milk",
         "ficha_tecnica": {
-            "plataformas": "PC",
+            "plataformas": "PC, Nintendo Switch",
             "desarrollador": "Nikita Kryukov",
             "editor": "Missing Calm",
             "requisitos_minimos": {
@@ -23,6 +23,10 @@
             {
                 "plataforma" : "Steam",
                 "enlace" : "https://store.steampowered.com/app/1392820/Milk_inside_a_bag_of_milk_inside_a_bag_of_milk/"
+            },
+            {
+                "plataforma" : "Nintendo Switch",
+                "enlace" : "https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Milk-inside-a-bag-of-milk-inside-a-bag-of-milk-and-Milk-outside-a-bag-of-milk-outside-a-bag-of-milk-2291792.html"
             }
         ]
     }
