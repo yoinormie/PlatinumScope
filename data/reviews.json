@@ -1,6 +1,7 @@
 {
     "milk_inside_a_bag_of_milk": {
         "titulo": "Milk inside a bag of milk inside a bag of milk",
+        "imagen" : "../assets/reviewImages/milk_inside_a_bag_of_milk.jpg",
         "ficha_tecnica": {
             "plataformas": "PC, Nintendo Switch",
             "desarrollador": "Nikita Kryukov",
