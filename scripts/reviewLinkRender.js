@@ -13,6 +13,15 @@ fetch("../data/reviews.json")
     // Título
     document.querySelectorAll(".titulo").forEach(el => el.textContent = juego.titulo || "Sin título");
 
+    //Imagen juego
+    const img = document.querySelector(".imagen");
+      if (juego.imagen) {
+        img.src = juego.imagen;
+        img.alt = juego.titulo || "Imagen del juego";
+      } else {
+      img.style.display = "none"; 
+    }
+
     // Ficha técnica: mínimos
     const minList = document.querySelector(".ficha-minimos");
     minList.innerHTML = "";
