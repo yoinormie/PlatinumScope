@@ -1,38 +1,36 @@
 body{
     margin: 0%;
     padding: 0%;
-    padding-top: 5%; 
+    padding-top: 10vh;
 }
 
 .barra-buscador {
-    display: flex;
+  margin: 0, auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   background-color: #222;
   color: white;
-  padding: 0.75rem 1rem;
-  display: flex;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   align-items: center;
-  gap: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1000;
 }
 
-.barra-buscador h2 {
+.titulo-buscador {
   margin: 0;
   font-size: 1.2rem;
 }
 
-.barra-buscador input[type="text"] {
-  flex-grow: 1;
+.buscador {
+  width: 60vw;
+  max-width: 600px;
   padding: 0.5rem;
   font-size: 1rem;
 }
 
-.barra-buscador .botones button {
-  margin-left: 0.5rem;
+.botones button {
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
   cursor: pointer;
