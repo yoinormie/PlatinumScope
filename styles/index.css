@@ -1,19 +1,24 @@
 body{
     margin: 0%;
     padding: 0%;
-    padding-top: 10vh;
 }
 
-.barra-buscador {
+.barra-buscador{
+  padding-bottom: 5vh;
+}
+
+.barra-contenido {
   margin: 0, auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: center;  
   width: 100vw;
   position: fixed;
   background-color: #222;
   color: white;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
   align-items: center;
   z-index: 1000;
 }
@@ -34,4 +39,28 @@ body{
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+
+.resultados {
+  position: absolute;
+  background: white;
+  width: 60vw;
+  max-width: 600px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 1001;
+}
+
+.resultados li {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.resultados li:hover {
+  background: #f0f0f0;
 }
