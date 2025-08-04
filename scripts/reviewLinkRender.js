@@ -1,10 +1,10 @@
 const params = new URLSearchParams(window.location.search);
-const juegoId = params.get("id") || null; 
+const juegoId = params.get("id") || null;
 
 fetch("../data/reviews.json")
   .then(res => res.json())
   .then(data => {
-    const juego = data[juegoId];
+    const juego = data.find(j => j.id === juegoId);
     if (!juego) {
       document.querySelector(".review-container").innerHTML = "<p>Review no encontrada.</p>";
       return;
@@ -15,11 +15,11 @@ fetch("../data/reviews.json")
 
     //Imagen juego
     const img = document.querySelector(".imagen");
-      if (juego.imagen) {
-        img.src = juego.imagen;
-        img.alt = juego.titulo || "Imagen del juego";
-      } else {
-      img.style.display = "none"; 
+    if (juego.imagen) {
+      img.src = juego.imagen;
+      img.alt = juego.titulo || "Imagen del juego";
+    } else {
+      img.style.display = "none";
     }
 
     // Ficha técnica: mínimos
