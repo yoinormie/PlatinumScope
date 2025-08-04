@@ -1,26 +1,67 @@
-body{
-    margin: 0%;
-    padding: 0%;
+/* Reset universal para evitar márgenes/paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* muy importante para evitar que padding/width se acumulen */
 }
 
-.barra-buscador{
+html, body {
+  height: 100%;
+  background-color: white; /* o tu color de fondo principal */
+}
+
+/* Hacemos que el body use flex para empujar el footer abajo */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* El main ocupará todo el espacio disponible para empujar el footer al fondo */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra horizontalmente */
+
+}
+
+.barra-buscador {
   padding-bottom: 5vh;
 }
 
 .barra-contenido {
-  margin: 0, auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;  
+  align-items: center;
   width: 100vw;
   position: fixed;
   background-color: #222;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  align-items: center;
   z-index: 1000;
+}
+
+.buscador-contenedor {
+  position: relative;
+  width: 30vw;
+}
+
+.intro {
+  width: 100%;
+  max-width: 70vw;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.intro article:first-of-type{
+  margin-top: 2vh;
+}
+
+.intro article{
+  margin-bottom: 2vh;
 }
 
 .titulo-buscador {
@@ -29,8 +70,7 @@ body{
 }
 
 .buscador {
-  width: 60vw;
-  max-width: 600px;
+  width: 30vw;
   padding: 0.5rem;
   font-size: 1rem;
 }
@@ -41,18 +81,24 @@ body{
   cursor: pointer;
 }
 
-
 .resultados {
+  display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
   background: white;
-  width: 60vw;
-  max-width: 600px;
-  margin-top: 10px;
+  width: 31vw;
   list-style: none;
+  color: black;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 6px;
   z-index: 1001;
+  box-sizing: border-box;
+}
+
+.resultados.visible {
+  display: block;
 }
 
 .resultados li {
@@ -63,4 +109,12 @@ body{
 
 .resultados li:hover {
   background: #f0f0f0;
+}
+
+/* Estilo para el footer corregido */
+.footer {
+  background-color: plum;
+  padding: 1rem;
+  text-align: center;
+  color: black;
 }
