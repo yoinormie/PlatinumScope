@@ -113,8 +113,8 @@ main {
 
 /* Estilo para el footer corregido */
 .footer {
-  background-color: plum;
+  background-color: #222;
   padding: 1rem;
   text-align: center;
-  color: black;
+  color: white;
 }
