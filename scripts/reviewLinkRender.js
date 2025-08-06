@@ -36,7 +36,7 @@ fetch("../data/reviews.json")
         for (const [key, value] of Object.entries(req)) {
           if (value) {
             const li = document.createElement("li");
-            li.innerHTML = `<strong>${key}:</strong> ${value}`;
+            li.innerHTML = `<strong>${key.toUpperCase()}:</strong> ${value}`;
             minList.appendChild(li);
           }
         }
