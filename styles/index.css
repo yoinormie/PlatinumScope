@@ -75,9 +75,18 @@ main {
   font-size: 1rem;
 }
 
+/*
 .botones button {
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
+  cursor: pointer;
+}
+*/
+
+.dark-mode{
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }
 
