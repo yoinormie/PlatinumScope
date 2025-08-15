@@ -1,3 +1,16 @@
+:root {
+  --color-bg: #F0F8FF;
+  --color-section: #DCEEFF;
+  --color-border: #AACCEB;
+  --color-primary: #5B9BD5;
+  --color-primary-hover: #407EC9;
+  --color-accent: #2C5F91;
+  --color-text: #2B2D42;
+  --color-text-light: #FFFFFF;
+  --color-highlight: #56CCF2;
+  --color-bg-footer: #1E3A8A
+}
+
 /* Reset universal para evitar márgenes/paddings por defecto */
 * {
   margin: 0;
@@ -7,13 +20,16 @@
 
 html, body {
   height: 100%;
-  background-color: white; /* o tu color de fondo principal */
+  background-color: var(--color-bg); /* o tu color de fondo principal */
+  color: var(--color-text);
 }
 
 /* Hacemos que el body use flex para empujar el footer abajo */
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Fredoka', sans-serif;
+
 }
 
 /* El main ocupará todo el espacio disponible para empujar el footer al fondo */
@@ -37,12 +53,14 @@ main {
   align-items: center;
   width: 100vw;
   position: fixed;
+  right: 0vw;
   background-color: #222;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 1000;
 }
+
 
 .buscador-contenedor {
   position: relative;
@@ -75,20 +93,6 @@ main {
   font-size: 1rem;
 }
 
-/*
-.botones button {
-  padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-*/
-
-.dark-mode{
-  font-size: 1.2rem;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
 
 .resultados {
   display: none;
