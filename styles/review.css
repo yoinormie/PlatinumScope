@@ -11,6 +11,20 @@
   --color-bg-footer: #1E3A8A
 }
 
+[data-theme="dark"] {
+  --color-bg: #121820;        /* Fondo general oscuro */
+  --color-section: #1A2430;   /* Secciones ligeramente más claras */
+  --color-border: #334155;    /* Bordes gris-azulados */
+  --color-primary: #3B82F6;   /* Azul vibrante */
+  --color-primary-hover: #2563EB; /* Azul más intenso */
+  --color-accent: #60A5FA;    /* Azul suave para acentos */
+  --color-text: #E2E8F0;      /* Texto claro */
+  --color-text-light: #FFFFFF;/* Texto muy claro */
+  --color-highlight: #38BDF8; /* Azul celeste para resaltar */
+  --color-bg-footer: #0F172A; /* Footer más oscuro */
+}
+
+
 html, body{
     overflow-x: hidden;
 }
@@ -97,6 +111,10 @@ body{
 
 .resultados li:hover {
   background: #f0f0f0;
+}
+
+.button-theme{
+  padding: 8px;
 }
 
 
