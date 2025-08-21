@@ -83,6 +83,23 @@ fetch("../data/reviews.json")
         : "";
     }
 
+    //Recursos
+    const recursos = document.querySelector(".recursos-lista");
+    recursos.innerHTML = "";
+    if (juego.recursos?.length) {
+      juego.recursos.forEach(r => {
+        const li = document.createElement("li");
+        if (r.tipo === "video") {
+          li.innerHTML = `<a href="${r.url}" target="_blank" rel="noopener noreferrer">🎥 ${r.titulo || "Video"}</a>`;
+        } else if (r.tipo === "articulo") {
+          li.innerHTML = `<a href="${r.url}" target="_blank" rel="noopener noreferrer">📰 ${r.titulo || "Artículo"}</a>`;
+        } else {
+          li.innerHTML = `<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.titulo || "Recurso"}</a>`;
+        }
+        recursos.appendChild(li);
+      });
+    }
+
     // Enlaces de compra
     const enlaces = document.querySelector(".enlaces-lista");
     enlaces.innerHTML = "";
