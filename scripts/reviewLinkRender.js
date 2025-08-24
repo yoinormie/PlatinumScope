@@ -67,15 +67,19 @@ fetch("../data/reviews.json")
     // Sinopsis (dentro de ficha_tecnica según tu JSON)
     const sinopsis = document.querySelector(".sinopsis");
     if (juego.ficha_tecnica?.sinopsis) {
-      sinopsis.textContent = juego.ficha_tecnica.sinopsis;
+      const sinopsisText =  juego.ficha_tecnica.sinopsis.replace(/\n/g, "<br>");
+      sinopsis.innerHTML = sinopsisText;
     }
 
     // Opiniones
     if (juego.opinion) {
       const o = juego.opinion;
-      document.querySelector(".opinion-historia").innerHTML = o.historia ? `<h3>Historia</h3><p>${o.historia}</p>` : "";
-      document.querySelector(".opinion-logros").innerHTML = o.logros ? `<h3>Logros</h3><p>${o.logros}</p>` : "";
-      document.querySelector(".opinion-mecanicas").innerHTML = o.mecanicas ? `<h3>Mecánicas</h3><p>${o.mecanicas}</p>` : "";
+      const historia = o.historia ? o.historia.replace(/\n/g, "<br>") : "";
+      document.querySelector(".opinion-historia").innerHTML = o.historia ? `<h3>Historia</h3><p>${historia}</p>` : "";
+      const logros = o.logros ? o.logros.replace(/\n/g, "<br>") : "";
+      document.querySelector(".opinion-logros").innerHTML = o.logros ? `<h3>Logros</h3><p>${logros}</p>` : "";
+      const mecanicas = o.mecanicas ? o.mecanicas.replace(/\n/g, "<br>") : "";
+      document.querySelector(".opinion-mecanicas").innerHTML = o.mecanicas ? `<h3>Mecánicas</h3><p>${mecanicas}</p>` : "";
       // Reemplazo saltos de línea en conclusiones
       const conclusiones = o.conclusiones ? o.conclusiones.replace(/\n/g, "<br>") : "";
       document.querySelector(".opinion-conclusiones").innerHTML = o.conclusiones
