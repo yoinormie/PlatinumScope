@@ -10,6 +10,10 @@ fetch("../data/reviews.json")
       return;
     }
 
+    //Título pestaña
+    document.title = document.title + " - " + (juego.titulo || "Sin título");
+
+
     // Título
     document.querySelectorAll(".titulo").forEach(el => el.textContent = juego.titulo || "Sin título");
 
