@@ -71,6 +71,14 @@
         "tipo":"video",
         "enlace":"https://youtu.be/kQ853Oeb318?si=9SCjk7MgoGFlZJHI",
         "autor":"Zhakey"
+      },
+      {
+        "tipo":"artículo",
+        "enlace":"https://vandal.elespanol.com/",
+        "autor":"Vandal",
+        "titulo": "Vandal español",
+        "snippet": "Vandal en español. La web oficial.",
+        "imagen" : "../assets/resourcesImages/vandal.jpg"
       }
     ],
     "enlaces_compra": [

@@ -220,7 +220,7 @@ main h2{
 /* Para iframes dentro de las cards (vídeos) */
 .recurso-card iframe {
   width: 100%;
-  height: 90%;
+  height: 100%;
   border-radius: 8px;
 }
 
@@ -259,4 +259,40 @@ footer{
     text-align: center;
     padding: 1rem;
 
+}
+
+.articulo-preview {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 25vw;
+  height: 35.25vh;
+  background: #fafafa;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  
+}
+
+.articulo-preview img {
+  width: 25vw;
+  height: 20vh;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  
+}
+
+.articulo-preview h3 {
+  padding-left: 6px;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.articulo-preview p {
+  padding-left: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 4.5vh;
+}
+
+.articulo-preview a{
+  padding-left: 6px;
+  padding-bottom: 12px;
 }

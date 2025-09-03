@@ -144,21 +144,57 @@ fetch("../data/reviews.json")
               a.textContent = "Ver vídeo (enlace)";
               card.appendChild(a);
             }
+          } else if (r.tipo === "artículo" || r.tipo === "articulo") {
+            console.log("Renderizando artículo con imagen:", r.imagen);
+            const preview = document.createElement("div");
+            preview.className = "articulo-preview";
+
+            // Imagen de cabecera
+            if (r.imagen) {
+              const img = document.createElement("img");
+              img.src = r.imagen;
+              img.alt = r.titulo || "Imagen del artículo";
+              preview.appendChild(img);
+            }
+
+            // Título
+            if (r.titulo) {
+              const h3 = document.createElement("h3");
+              h3.textContent = r.titulo;
+              preview.appendChild(h3);
+            }
+
+            // Snippet / avance
+            if (r.snippet) {
+              const p = document.createElement("p");
+              p.textContent = r.snippet;
+              preview.appendChild(p);
+            }
+
+            // Botón/enlace al artículo
+            const a = document.createElement("a");
+            a.href = r.url || "#";
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.textContent = "Leer artículo completo";
+            preview.appendChild(a);
+
+            card.appendChild(preview);
           } else {
             // artículo / otro: link
             const a = document.createElement("a");
-            a.href = r.url || "#";
+            a.href = r.enlace || "#";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             a.textContent = r.tipo === "articulo" || r.tipo === "artículo" ? "Leer artículo" : "Ver recurso";
             card.appendChild(a);
           }
-          if (r.autor) {
+          /*if (r.autor) {
             const autorEl = document.createElement("p");
             autorEl.className = "recurso-autor";
             autorEl.textContent = `Autor: ${r.autor}`;
             card.appendChild(autorEl);
-          }
+          }*/
           recursosContainer.appendChild(card);
         }
       }
@@ -170,15 +206,10 @@ fetch("../data/reviews.json")
       const titulo = (raw.titulo || raw.title || raw.nombre || "").trim();
       const tipo = (raw.tipo || "").toLowerCase().trim();
       const autor = (raw.autor || raw.author || "").trim();
-      return { url, titulo, tipo, autor };
+      const imagen = (raw.imagen || "").trim();
+      const snippet = (raw.snippet || "").trim();
+      return { url, titulo, tipo, autor, imagen, snippet };
     }
-
-    function iconForTipo(tipo) {
-      if (tipo === "video") return "🎥";
-      if (tipo === "articulo" || tipo === "artículo") return "📰";
-      return "🔗";
-    }
-
     function extractYouTubeId(u) {
       if (!u) return null;
       try {
