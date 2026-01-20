@@ -1,0 +1,104 @@
+[
+  {
+    "id": "milk_inside_a_bag_of_milk",
+    "titulo": "Milk inside a bag of milk inside a bag of milk",
+    "imagen": "../assets/reviewImages/milk_inside_a_bag_of_milk.jpg",
+    "ficha_tecnica": {
+      "plataformas": "PC, Nintendo Switch",
+      "desarrollador": "Nikita Kryukov",
+      "editor": "Missing Calm",
+      "requisitos_minimos": {
+        "cpu": "Intel i3",
+        "ram": "1 GB",
+        "so": "Windows 7",
+        "gpu": "N/A",
+        "disco": "250 MB"
+      },
+      "sinopsis": "Una breve historia sobre los retos que pueden suponer las pequeñas cosas cotidianas. Ayuda a la chica a comprar leche, sé el primero en no decepcionarla. El juego es una pequeña novela visual, que muestra tanto divertidas abstracciones y juegos de palabras como dolorosos episodios psicológicos. Afirmar que la historia está basada en hechos reales sería demasiado específico, así que es más fácil fingir que se trata sólo de un conjunto de abstracciones y juegos de palabras. En primer lugar, se trata de una manipulación artística con la palabra y la forma, sólo entonces - un juego."
+    },
+    "opinion": {
+      "historia": "La historia de este juego la verdad es que me pareció de lo más raro. No me esperaba que la compra de una \"bolsa de leche\" diese para contar la historia de una chica que tiene alucinaciones y problemas para salir al mundo exterior. La verdad es que, aunque sea un juego muy, muy corto, es bastante interesante, ya que a partir de esa historia tan comprimida deja escapar muchas cosas (ansiedad, miedo, soledad, etc...). Incluso se pueden sacar teorías sobre ella, dejando muchas historias creadas por la comunidad que, dejando obviamente las pochas que parecen de Wattpad, son bastante interesantes de leer.",
+      "logros": "Los logros son prácticamente jugar, pasarte el juego y, si no recuerdo mal, perder y que se reinicie la partida. No hay nada complicado, solo jugar y disfrutar de la historia.",
+      "conclusiones": "Creo que, si eres fan de las novelas gráficas o de los juegos turbios, te podrá gustar. Puede que no sea el más agradable visualmente pero creo que también le da un toque. Aparte de esto, el precio no es para nada elevado, por lo que es algo que te puede distraer un rato. Yo lo jugué después de meter muchos shooters (creo que fuera CSGO, TF2 y otros de historia) y la verdad se sintió como cuando hace viento fresco en verano. \n\nEn definitiva, creo que es una buena compra, pero solo si eres afín a este típo de títulos (o si te gustan los fanfics montandose historias)."
+    },
+    "enlaces_compra": [
+      {
+        "plataforma": "Steam",
+        "enlace": "https://store.steampowered.com/app/1392820/Milk_inside_a_bag_of_milk_inside_a_bag_of_milk/"
+      },
+      {
+        "plataforma": "Nintendo Switch",
+        "enlace": "https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Milk-inside-a-bag-of-milk-inside-a-bag-of-milk-and-Milk-outside-a-bag-of-milk-outside-a-bag-of-milk-2291792.html"
+      }
+    ]
+  },
+  {
+    "id": "resident_evil_2_remake",
+    "titulo": "Resident Evil 2 Remake",
+    "imagen": "../assets/reviewImages/resident_evil_2_remake.jpg",
+    "ficha_tecnica":{
+      "plataformas": "PC, Nintendo Switch, PS5, PS4, Xbox One, Xbox Series X/S",
+      "desarrollador": "CAPCOM Co. Ltd",
+      "editor":"CAPCOM Co. Ltd",
+      "requisitos_minimos":{
+        "cpu": "Intel® Core™ i5-4460 o AMD FX™-6300",
+        "ram": "8 GB",
+        "so":"Windows 10 (64 bits requeridos)",
+        "gpu":"NVIDIA® GeForce® GTX 960 o AMD Radeon™ RX 460",
+        "disco": "26 GB",
+        "directX":"12",
+        "notas": "Se espera que este juego funcione a 1080p/30 FPS. Si no tienes suficiente memoria gráfica para ejecutar el juego con la calidad de textura seleccionada, debes ir a Opciones > Gráficos y reducir la calidad de las texturas o de las sombras, o disminuir la resolución. Se requiere una conexión a Internet para la activación del producto. (La conectividad de red utiliza Steam®, desarrollado por Valve® Corporation)."
+      },
+      "requisitos_recomendados":{
+        "cpu": " Intel® Core™ i7-3770 o AMD FX™-9590",
+        "ram":"8 GB",
+        "so":"Windows 10 (64 bits requeridos)",
+        "gpu":"NVIDIA® GeForce® GTX 1060 o AMD Radeon™ RX 480 con 3GB VRAM",
+        "disco": "26 GB",
+        "directX":"12",
+        "notas":"Se espera que este juego funcione a 1080p/60 FPS. Se requiere una conexión a Internet para la activación del producto. (La conectividad de red utiliza Steam®, desarrollado por Valve® Corporation)."
+      },
+      "sinopsis":"Vuelve Resident Evil 2, la obra maestra que definió un género, completamente renovado para una narrativa aún más intensa. Con el motor gráfico RE propietario de Capcom, Resident Evil 2 supone un nuevo enfoque de esta saga clásica del survival horror, con gráficos espectacularmente realistas, estremecedor sonido inmersivo, una nueva vista sobre el hombro y nuevos controles, además de modos de juego del título original. \n\nResident Evil 2 supone la vuelta de la acción clásica, la exploración tensa y las mecánicas de resolución de rompecabezas que definieron la serie. Los jugadores acompañarán al policía novato Leon S. Kennedy y a la estudiante universitaria Claire Redfield, que se ven atrapados en una apocalíptica epidemia en Racoon City que ha transformado a su población en zombis mortíferos. Ambos personajes tienen sus propias campañas jugables, lo que permite a los jugadores ver la historia desde dos puntos de vista. El destino de ambos personajes, favoritos de los fans, está en manos de los jugadores, que deberán hacerlos colaborar y llegar hasta el fondo de lo que se esconde tras este terrorífico ataque a la ciudad. ¿Lograrán sobrevivir?"
+    },
+    "opinion": {
+      "historia": "Para mí, la historia me ha parecido bastante buena. Siento que no sabría describir tanto las diferencias entre escenarios salvo por las compañías que haces (Ada con Leon / Sherry con Claire), pero no se siente tan mal como para decir que no vale la pena jugar ambos escenarios. Por lo menos la parte A, se sienten tan diferentes como para engancharte a seguir con la 2da run, pero no es lo suficiente como para decir que no hay elementos repetidos en ambos casos.\n\nDe todas maneras, la historia de estos personajes me gustó bastante y es de esas que no se te olvidan en mucho tiempo (como cuando acabas con William por 1ra vez o cuando te sorprende el Tyrant al apagar el fuego. En definitiva, aunque no hay muchas diferencias clave en el gameplay (como enemigos diferentes o puzzles/mecánicas tan diferentes) os puedo decir que es una muy buena historia y, aunque ambos personajes vayan por los mismos sitios, sientes que ambos pasan por penurias diferentes (aparte de los zombies claro).",
+      "mecanicas":"Siendo sincero, las mecánicas de este juego me han encanto. La forma de disparar, la posibilidad de esquivar los agarres enemigos, los puzzles con elementos del entorno (como lo de la estatua de la reina o la necesidad de usar diferentes objetos para pasarte X puzzle), entre otras cosas. \n\nUna cosa que si que no me ha gustado (ya sea que no se puede o que no fuí lo suficentemente competente para realizarlo correctamente) es el aprovecharme de la ceguera de los lickers. Sentí que estos son ciegos cuando les conviene y en ciertas secciones del juego, aunque quieras hacerte el sigiloso, creo que no te dan esa posibilidad. Esta parte me parece algo a pulir porque no te dan una alternativa muy sencilla (sin hacer cosas como lo de correr en diagonal como puedes hacer con los perros) y te obliga a gastar recursos en esto (aunque cabe resaltar que puede que no lo haya hecho bien. Tampoco he visto a alguien que se haya pasado las secciones de lickers de manera sigilosa como se indica en una nota del juego). \n\nOtra cosa que si que me ha parecido buena son las diferentes armas que tiene el juego (refiriendome, aparte de a las obvias como las pistolas, al lanzallamas o al lanzadescargas). Siento que estas no están tan rotas como para romper la dinámica que tiene el juego, pero tampoco te dejan tan indefenso como para solo pensar en evadir. Permiten defenderte pero con un limitante de munición (que me parece que está bastante bien puesto por la posibilidad de usar la pólvora y tal) para no sentire un juggernaut. \n\nY hablando de armas, naturalmente, si alguien te dispara en el morro, lo mínimo que te va a pasar es que te aturda. Esto en el juego es como una mecánica bastante recurrente en estos juegos. Te recompensan tu puntería con un momento para sortear a tu enemigo, o tu gasto de munición para realentizar a un zombie si le disparas en una pierna. \n\nHablando de estos npcs, el enemigo por excelencia de este juego, refiriendome al Tyrant, obviamente, tiene uno de los sistemas de comportamiento más chulos que he visto. Lo de que te persiga como un perro hasta zurrarte es duro, pero que te pueda aparecer en el morro en algún momento random es algo que si que te aterra (y más si estás con poca vida). Lo malo es que, por lo menos a mí, al hacer speedrun del juego, esto pierde bastante valor. Aparte, al igual que los zombies, es relativamente fácil de esquivar, por lo que al cabo de unas runs le pierdes el respeto que te da esa gran figura con sombrero y gabardina.",
+      "logros": "Tengo que decir que la gran mayoría se sacan fácil. Muchos son relacionados con la historia y muchos otros son cosas que por iniciativa propia, necesidad o el simple hecho de hacerlo sin darte cuenta los sacas. Entre estos se podrían encontrar el de usar un arma secundaria en un zombie o aturdir a un licker con una cegadora. La cosa se vuelve más serias si te empiezas a meter en el modo Hardcore del juego. \n\nEn mi opinión, la curva de dificultad que hay del normal a este modo es grande. La falta de puntos de control, los zombies matándote de dos ataques y la necesidad de tinta para guardar (con la consecuencia oculta de que, al ocupar el sitio de otros recursos, tienes menos balas, hierbas, espacios de inventario, etc...) hace que te sea un reto pasarte el juego. \n\nDespués de esto (y de la parte B que no es bastante lograda en mi opinión), puedes probar con el contenido de dlc como el de El 4to superviviente o el de los otros supervivientes. Un aviso bastante útil es que para desbloquear el escenario de Sin salida, no tienes por que pasarte los otros tres escenarios en normal. Puedes hacerlo en práctica que cuenta igual. \n\nCon esto a nuestras espaldas, no nos queda mucho para conseguir el platino (si no me falla la memoria claro), pero lo que queda es algo que, en mis experiencias personales, no hay quien aguante: los coleccionables. Esto no sería un problema si hubiera un indicativo de ellos, pero tienes que buscar sin saber cuantos te quedan (no sé si hay alguna manera de vez los raccons, pero creo que no hay ninguna). Esto es bastante desagradable si se te olvida uno y no sabes cual es. \n\nMi consejo personal es: mira un video longplay (os puedo dejar uno en el apartado de recursos), sigue el video al pie de la letra y juega en asistido (piensa que no compites con nadie ni nadie te va a decir nada. No estaría nada cool el fastidiarte con los zombies o la munición si tienes que andar a leer cosas).",
+      "conclusiones": "Con todo lo dicho no quiero parecer un hater del juego ni nada. Creo que si quereis empezar a platinar o añadir un juego más a la colección de platinos, este es un título excelente. Es bueno, tanto en historia, mecánicas y logros, y, aunque haya logros que no tengan mucho sentido como el de Bibliotecario, son bastante asequibles. \n\nAparte, al hacer el platino de este juego he visto muchos vídeos mostrando que el X logro es \"imposible\", pero creo que más que imposible es tedioso. Pienso que esos logros se pueden comparar al de buscar coleccionables en el Metro 2033 (sin contar el detalle de que en este sí que los puedes ver). Pero eh, os digo que no es imposible, yo soy bastante perezoso con los coleccionables y no tuve mucho problema."
+    },
+    "recursos": [
+      {
+        "tipo":"video",
+        "enlace":"https://youtu.be/kQ853Oeb318?si=9SCjk7MgoGFlZJHI",
+        "autor":"Zhakey"
+      },
+      {
+        "tipo":"artículo",
+        "enlace":"https://vandal.elespanol.com/",
+        "autor":"Vandal",
+        "titulo": "Vandal español",
+        "snippet": "Vandal en español. La web oficial.",
+        "imagen" : "../assets/resourcesImages/vandal.jpg"
+      }
+    ],
+    "enlaces_compra": [
+      {
+        "plataforma": "Steam",
+        "enlace": "https://store.steampowered.com/app/883710/Resident_Evil_2/"
+      },
+      {
+        "plataforma": "PlayStation",
+        "enlace": "https://store.playstation.com/es-es/product/EP0102-PPSA04289_00-BH2R000000000001"
+      },
+      {
+        "plataforma": "Xbox",
+        "enlace": "https://www.xbox.com/es-ES/games/store/resident-evil-2/BWMH951M3G3P/0001"
+      },
+      {
+        "plataforma": "Nintendo Switch",
+        "enlace": "https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Resident-Evil-2-Cloud-2291644.html?srsltid=AfmBOopEEGHSLzFkidnYCd8mDDyid94p-9lp1BfIUzVxEtjowNGsB_RJ"
+      }
+    ]
+
+  }
+]
