@@ -330,16 +330,16 @@
   .articulo-preview {
     border: 1px solid #ccc;
     border-radius: 12px;
-    width: 25vw;
-    height: 35.25vh;
+    width: 23vw;
+    height: 31.5vh;
     background: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   }
 
   .articulo-preview img {
-    width: 25vw;
-    height: 20vh;
+    width: 22.75vw;
+    height: 15.75vh;
     border-radius: 8px;
     margin-bottom: 0.5rem;
 
@@ -355,7 +355,7 @@
     padding-left: 6px;
     font-size: 0.9rem;
     color: #555;
-    margin-bottom: 4.5vh;
+    margin-bottom: 2.5vh;
   }
 
   .articulo-preview a {
