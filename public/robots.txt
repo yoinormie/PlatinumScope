@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://platinumscope.pages.dev/sitemap.xml
