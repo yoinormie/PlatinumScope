@@ -4,7 +4,7 @@ import Fuse from "fuse.js";
 import type { Review } from "../types/Reviews";
 import ThemeToggle from "./ThemeToggle";
 import "../index.css"
-import styles from '../styles/searchBar.module.css'
+import styles from '../styles/modules/searchBar.module.css'
 
 export default function SearchBar() {
   const [query, setQuery] = useState("");
