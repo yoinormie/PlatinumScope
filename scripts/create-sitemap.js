@@ -1,7 +1,11 @@
 import fs from "fs";
-import reviews from "../src/data/reviews.json" assert { type: "json" };
+import path from "path";
 
 const BASE_URL = "https://platinumscope.pages.dev";
+const SITEMAP_PATH = "public/sitemap.xml";
+
+const jsonPath = path.resolve("src/data/reviews.json");
+const reviews = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
 const urls = [
   `${BASE_URL}/`,
@@ -17,6 +21,7 @@ ${urls.map(url => `
 `).join("")}
 </urlset>`;
 
-fs.writeFileSync("public/sitemap.xml", xml);
+// Guardar
+fs.writeFileSync(SITEMAP_PATH, xml);
 
 console.log("Sitemap generado con", urls.length, "URLs");
