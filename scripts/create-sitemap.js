@@ -4,7 +4,7 @@ import path from "path";
 const BASE_URL = "https://platinumscope.pages.dev";
 const SITEMAP_PATH = "public/sitemap.xml";
 
-const jsonPath = path.resolve("src/data/reviews.json");
+const jsonPath = path.resolve("public/data/reviews.json");
 const reviews = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
 const urls = [
