@@ -70,30 +70,6 @@ main {
   width: 100%;
 }
 
-
-.barra-buscador {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: block;
-  /* Asegura que ocupe todo el ancho sin gaps */
-}
-
-.barra-contenido {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background-color: #222;
-  color: white;
-
-}
-
 .cabecera {
   display: block;
   /* Esto quita el espacio de 'line-height' que dejan las imágenes */
@@ -107,11 +83,6 @@ header {
   padding: 0;
   line-height: 0;
   /* Refuerzo para eliminar espacios internos */
-}
-
-.buscador-contenedor {
-  position: sticky;
-  width: 30vw;
 }
 
 .intro {
@@ -133,17 +104,6 @@ header {
 
 .intro article h2 {
   margin-bottom: 20px;
-}
-
-.titulo-buscador {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
-.buscador {
-  width: 30vw;
-  padding: 0.5rem;
-  font-size: 1rem;
 }
 
 .resultados {
@@ -182,7 +142,6 @@ header {
   padding: 8px;
 }
 
-/* Estilo para el footer corregido */
 .footer {
   background-color: #222;
   padding: 1rem;

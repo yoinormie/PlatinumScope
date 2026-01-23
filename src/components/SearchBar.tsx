@@ -4,6 +4,7 @@ import Fuse from "fuse.js";
 import type { Review } from "../types/Reviews";
 import ThemeToggle from "./ThemeToggle";
 import "../index.css"
+import styles from '../styles/searchBar.module.css'
 
 export default function SearchBar() {
   const [query, setQuery] = useState("");
@@ -28,13 +29,13 @@ export default function SearchBar() {
   }, [query, fuse]);
 
   return (
-    <section className="barra-buscador">
-      <div className="barra-contenido">
-        <h2 className="titulo-buscador">PlatinumScope - Reviews de mis platinos</h2>
-        <div className="buscador-contenedor">
+    <section className={styles.barraBuscador}>
+      <div className={styles.barraContenido}>
+        <h2 className={styles.tituloBuscador}>PlatinumScope - Reviews de mis platinos</h2>
+        <div className={styles.buscadorContenedor}>
           <input
             type="text"
-            className="buscador"
+            className={styles.buscador}
             placeholder="Buscar reviews"
             value={query}
             onChange={e => setQuery(e.target.value)}
