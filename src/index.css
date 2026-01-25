@@ -1,45 +1,33 @@
 :root {
-  --color-bg: #F0F8FF;
-  --color-section: #DCEEFF;
-  --color-border: #AACCEB;
-  --color-primary: #5B9BD5;
-  --color-primary-hover: #407EC9;
-  --color-accent: #2C5F91;
+  --color-bg: #F6F2FB;
+  --color-section: #E9DDF7;
+  --color-border: #C9B6E4;
+  --color-primary: #9B7EDC;
+  --color-primary-hover: #7E63C9;
+  --color-accent: #5E4691;
   --color-text: #2B2D42;
   --color-text-light: #FFFFFF;
-  --color-highlight: #56CCF2;
-  --color-bg-footer: #1E3A8A
+  --color-highlight: #C084FC;
+  --color-bg-footer: #4C1D95;
 }
 
 [data-theme="dark"] {
-  --color-bg: #121820;
-  /* Fondo general oscuro */
-  --color-section: #1A2430;
-  /* Secciones ligeramente más claras */
-  --color-border: #334155;
-  /* Bordes gris-azulados */
-  --color-primary: #3B82F6;
-  /* Azul vibrante */
-  --color-primary-hover: #2563EB;
-  /* Azul más intenso */
-  --color-accent: #60A5FA;
-  /* Azul suave para acentos */
+  --color-bg: #14101C;
+  --color-section: #1E1A2B;
+  --color-border: #3F355A;
+  --color-primary: #8B5CF6;
+  --color-primary-hover: #7C3AED;
+  --color-accent: #A78BFA;
   --color-text: #E2E8F0;
-  /* Texto claro */
   --color-text-light: #FFFFFF;
-  /* Texto muy claro */
-  --color-highlight: #38BDF8;
-  /* Azul celeste para resaltar */
-  --color-bg-footer: #0F172A;
-  /* Footer más oscuro */
+  --color-highlight: #C4B5FD;
+  --color-bg-footer: #0F072A;
 }
 
-/* Reset universal para evitar márgenes/paddings por defecto */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* muy importante para evitar que padding/width se acumulen */
   transition:
     background-color 0.35s ease,
     color 0.35s ease,
