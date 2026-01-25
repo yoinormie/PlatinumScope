@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import type { Review } from "../types/Reviews";
+import type { Review } from "../../types/Reviews";
 import { FichaTecnica } from "./FichaTecnica";
 import { Opiniones } from "./Opiniones";
 import { Recursos } from "./Recursos";
 import { EnlacesCompra } from "./Recursos";
 import { Sinopsis } from "./Sinopsis";
-import SearchBar from "./SearchBar";
-import '../review.css'
-import Header from "./Header";
+import SearchBar from "../SearchBar";
+import '../../review.css'
+import Header from "../Header";
 
 export default function ReviewPage() {
   const { id } = useParams<{ id: string }>();

@@ -1,5 +1,5 @@
-import type { Opinion } from "../types/Reviews";
-import '../review.css'
+import type { Opinion } from "../../types/Reviews";
+import '../../review.css'
 
 type Props = { opinion?: Opinion };
 

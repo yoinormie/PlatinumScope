@@ -1,5 +1,5 @@
-import type { Recurso, EnlaceCompra } from "../types/Reviews";
-import '../review.css'
+import type { Recurso, EnlaceCompra } from "../../types/Reviews";
+import '../../review.css'
 
 export function Recursos({ recursos }: { recursos?: Recurso[] }) {
   if (!recursos || recursos.length === 0) return null;

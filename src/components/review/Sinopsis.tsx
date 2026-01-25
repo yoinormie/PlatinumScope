@@ -1,4 +1,4 @@
-import '../review.css'
+import '../../review.css'
 
 type Props = { sinopsis?: string };
 

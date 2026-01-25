@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ReviewPage from "./components/ReviewPage";
+import ReviewPage from "./components/review/ReviewPage";
 import IndexPage from './Index'
 
 function App() {

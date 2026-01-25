@@ -1,5 +1,5 @@
-import type { FichaTecnica, Requisitos } from "../types/Reviews";
-import '../review.css'
+import type { FichaTecnica, Requisitos } from "../../types/Reviews";
+import '../../review.css'
 
 type Props = { ficha?: FichaTecnica };
 
