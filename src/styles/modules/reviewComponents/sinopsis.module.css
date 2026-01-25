@@ -1,0 +1,12 @@
+.sinopsis {
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.sinopsis p {
+    margin-top: 20px;
+}
+
+.sinopsis p:last-child {
+    margin-bottom: 20px;
+}

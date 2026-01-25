@@ -1,5 +1,5 @@
 import type { FichaTecnica, Requisitos } from "../../types/Reviews";
-import '../../review.css'
+import styles from '../../styles/modules/reviewComponents/fichaTecnica.module.css'
 
 type Props = { ficha?: FichaTecnica };
 
@@ -19,7 +19,7 @@ export function FichaTecnica({ ficha }: Props) {
   };
 
   return (
-    <section className="ficha">
+    <section className={styles.ficha}>
       <h2>Ficha técnica</h2>
       {renderRequisitos(ficha.requisitos_minimos, "Requisitos mínimos")}
       {renderRequisitos(ficha.requisitos_recomendados, "Requisitos recomendados")}

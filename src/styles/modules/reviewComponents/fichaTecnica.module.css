@@ -1,0 +1,26 @@
+.fichaMinimos h3,
+.fichaRecomendados h3 {
+    font-size: 22px;
+}
+
+
+.fichaMinimos li,
+.fichaRecomendados li {
+    font-size: 18px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.ficha h3 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.ficha ul {
+    list-style: none;
+}
+
+.ficha li {
+    margin-bottom: 8px;
+    margin-left: 1.5vw;
+}

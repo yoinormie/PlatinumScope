@@ -1,15 +1,15 @@
 import type { Recurso, EnlaceCompra } from "../../types/Reviews";
-import '../../review.css'
+import styles from '../../styles/modules/reviewComponents/recursos.module.css'
 
 export function Recursos({ recursos }: { recursos?: Recurso[] }) {
   if (!recursos || recursos.length === 0) return null;
   return (
-    <section className="recursos">
+    <section className={styles.recursos}>
       <h2>Recursos</h2>
 
-      <div className="recursos-contenedor">
+      <div className={styles.recursosContenedor}>
         {recursos.map((r, i) => (
-          <article className="recurso-card" key={i}>
+          <article className={styles.recursoCard} key={i}>
             {r.tipo === "video" && r.enlace ? (
               // ---- VIDEO ----
               <iframe
@@ -22,7 +22,7 @@ export function Recursos({ recursos }: { recursos?: Recurso[] }) {
               />
             ) : (
               // ---- ARTÍCULO / OPENGRAPH ----
-              <div className="articulo-preview">
+              <div className={styles.articuloPreview}>
                 {r.imagen && (
                   <img
                     src={r.imagen}
@@ -53,9 +53,9 @@ export function Recursos({ recursos }: { recursos?: Recurso[] }) {
 export function EnlacesCompra({ enlaces }: { enlaces?: EnlaceCompra[] }) {
   if (!enlaces || enlaces.length === 0) return null;
   return (
-    <section className="enlaces">
+    <section className={styles.enlaces}>
       <h2>Comprar</h2>
-      <ul className="enlaces-lista">
+      <ul className={styles.enlacesLista}>
         {enlaces.map((e, i) => (
           <li key={i}><a href={e.enlace} target="_blank" rel="noopener noreferrer">{e.plataforma}</a></li>
         ))}

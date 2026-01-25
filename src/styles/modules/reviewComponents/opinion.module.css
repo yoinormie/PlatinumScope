@@ -1,0 +1,35 @@
+.opinionSection h2,
+.opinionSection h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.opinionHistoria,
+.opinionLogros,
+.opinionMecanicas,
+.opinionConclusiones {
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.opinionHistoria p,
+.opinionLogros p,
+.opinionMecanicas p,
+.opinionConclusiones p {
+    margin-top: 20px;
+}
+
+.opinionHistoria p:last-child,
+.opinionLogros p:last-child,
+.opinionMecanicas p:last-child,
+.opinionConclusiones p:last-child {
+    margin-bottom: 20px;
+}
+
+.opinionSection h3,
+.opinionHistoria h3,
+.opinionLogros h3,
+.opinionMecanicas h3,
+.opinionConclusiones h3 {
+    font-size: 24px;
+}

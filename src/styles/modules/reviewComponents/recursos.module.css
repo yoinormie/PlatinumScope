@@ -1,0 +1,101 @@
+.recursosContenedor {
+    display: flex;
+    flex-direction: row;
+    /* todas en fila */
+    gap: 1rem;
+    /* separación entre cards */
+    overflow-x: auto;
+    /* activa scroll horizontal */
+    padding: 1rem;
+    scroll-snap-type: x mandatory;
+    /* opcional: scroll suave card a card */
+}
+
+.recursoCard {
+    flex: 0 0 auto;
+    /* no se encogen ni estiran */
+    width: 25vw;
+    /* ancho fijo de cada card */
+    height: 35vh;
+    /* alto fijo (ajusta al gusto) */
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    scroll-snap-align: start;
+    /* opcional: se alinean al hacer scroll */
+}
+
+/* Para iframes dentro de las cards (vídeos) */
+.recursoCard iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.recursoAutor {
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+.articuloPreview {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 23vw;
+    height: 31.5vh;
+    background: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.articuloPreview img {
+    width: 22.75vw;
+    height: 15.75vh;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+
+}
+
+.articuloPreview h3 {
+    padding-left: 6px;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.articuloPreview p {
+    padding-left: 6px;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 2.5vh;
+}
+
+.articuloPreview a {
+    padding-left: 6px;
+    padding-bottom: 12px;
+}
+
+.enlaces ul {
+    list-style: none;
+}
+
+.enlaces li {
+    color: black;
+    padding-top: 10px;
+}
+
+.enlaces li:last-child {
+    padding-bottom: 10px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.enlaces a:hover {
+    color: lightblue;
+}
+
+.enlacesLista li {
+    margin-left: 1.5vw;
+}
