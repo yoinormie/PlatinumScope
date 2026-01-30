@@ -21,6 +21,9 @@ export function FichaTecnica({ ficha }: Props) {
   return (
     <section className={styles.ficha}>
       <h2>Ficha técnica</h2>
+      <h3>Plataformas</h3><p>{ficha.plataformas}</p>
+      <h3>Desarrollador</h3><p>{ficha.desarrollador}</p>
+      <h3>Editor</h3><p>{ficha.editor}</p>
       {renderRequisitos(ficha.requisitos_minimos, "Requisitos mínimos")}
       {renderRequisitos(ficha.requisitos_recomendados, "Requisitos recomendados")}
     </section>
