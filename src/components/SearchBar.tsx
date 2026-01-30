@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom"; // IMPORTANTE
+import { Link, useLocation } from "react-router-dom"; // IMPORTANTE
 import Fuse from "fuse.js";
 import type { Review } from "../types/Reviews";
 import ThemeToggle from "./ThemeToggle";
@@ -11,6 +11,8 @@ export default function SearchBar() {
   const [results, setResults] = useState<Review[]>([]);
   const [fuse, setFuse] = useState<Fuse<Review> | null>(null);
 
+  const location = useLocation();
+
   useEffect(() => {
     fetch("/data/reviews.json")
       .then(res => res.json())
@@ -21,6 +23,11 @@ export default function SearchBar() {
       })))
       .catch(err => console.error("Error cargando JSON:", err));
   }, []);
+
+  useEffect(() => {
+    setQuery("");
+    setResults([]);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (!query || !fuse) return setResults([]);
