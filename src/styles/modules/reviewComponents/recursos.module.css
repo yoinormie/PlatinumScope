@@ -1,77 +1,105 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.recursos {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
 .recursosContenedor {
     display: flex;
     flex-direction: row;
-    /* todas en fila */
-    gap: 1rem;
-    /* separación entre cards */
+    gap: 0.75rem;
+    padding: 0.5rem;
     overflow-x: auto;
-    /* activa scroll horizontal */
-    padding: 1rem;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    /* opcional: scroll suave card a card */
+    -webkit-overflow-scrolling: touch;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+
+    /* Evita que el padding y gap sumen extra */
+    margin: 0;
 }
 
+/* Cada card de recurso */
 .recursoCard {
+    /* CLAVE: Evita que la tarjeta se encoja para caber */
     flex: 0 0 auto;
-    /* no se encogen ni estiran */
-    width: 25vw;
-    /* ancho fijo de cada card */
-    height: 35vh;
-    /* alto fijo (ajusta al gusto) */
+
+    /* Definimos un ancho fijo o relativo */
+    width: 280px;
+    height: 250px;
+
     background: #f5f5f5;
     border-radius: 10px;
     padding: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     scroll-snap-align: start;
-    /* opcional: se alinean al hacer scroll */
+    box-sizing: border-box;
 }
 
-/* Para iframes dentro de las cards (vídeos) */
 .recursoCard iframe {
     width: 100%;
     height: 100%;
     border-radius: 8px;
 }
 
+
 .recursoAutor {
     color: blueviolet;
     padding-bottom: 10px;
 }
 
+/* Artículo / preview */
 .articuloPreview {
     border: 1px solid #ccc;
     border-radius: 12px;
-    width: 23vw;
-    height: 31.5vh;
     background: #fafafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
+    width: 100%;
+    /* Ocupa todo el ancho de la card */
+    height: 100%;
+    /* Ocupa todo el alto de la card */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .articuloPreview img {
-    width: 22.75vw;
-    height: 15.75vh;
+    width: 100%;
+    height: 40%;
+    /* Proporción para que no sea gigante */
+    object-fit: cover;
+    /* Ajusta la imagen sin deformar */
     border-radius: 8px;
     margin-bottom: 0.5rem;
-
 }
 
 .articuloPreview h3 {
-    padding-left: 6px;
+    font-size: 1rem;
     margin: 0.5rem 0;
-    font-size: 1.1rem;
+    padding-left: 6px;
 }
 
 .articuloPreview p {
-    padding-left: 6px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #555;
-    margin-bottom: 2.5vh;
+    margin: 0.25rem 0 0.5rem 6px;
 }
 
 .articuloPreview a {
     padding-left: 6px;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
+    font-size: 0.85rem;
 }
 
 .enlaces ul {
@@ -98,4 +126,68 @@
 
 .enlacesLista li {
     margin-left: 1.5vw;
+}
+
+@media (max-width: 768px) {
+
+
+    .recursos {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recursosContenedor {
+        display: flex;
+        flex-direction: row;
+        gap: 0.75rem;
+        padding: 0.5rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        
+        padding-left: calc(50vw - 50%);
+        padding-right: calc(50vw - 50%);
+
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .recursosContenedor::-webkit-scrollbar {
+        display: none;
+    }
+
+    .recursoCard {
+        width: 85vw;
+        flex: 0 0 auto;
+    }
+
+    .articuloPreview {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .articuloPreview img {
+        width: 100%;
+        height: 100%;
+        max-height: 100px;
+    }
+
+    .articuloPreview h3,
+    .articuloPreview p,
+    .articuloPreview a {
+        font-size: 0.7rem;
+    }
+
+    .enlacesLista li {
+        margin-left: 3vw;
+    }
 }
