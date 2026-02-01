@@ -59,18 +59,14 @@ main {
 }
 
 .cabecera {
-  display: block;
-  /* Esto quita el espacio de 'line-height' que dejan las imágenes */
   width: 100%;
-  height: 200px;
-  /* Asegúrate de que coincida con el atributo del HTML o usa auto */
+  height: 25vh;
 }
 
 header {
   margin: 0;
   padding: 0;
   line-height: 0;
-  /* Refuerzo para eliminar espacios internos */
 }
 
 .intro {
@@ -135,4 +131,49 @@ header {
   padding: 1rem;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 768px) {
+
+  main {
+    padding: 0 4vw;
+  }
+
+  .cabecera {
+    height: 18vh;
+  }
+
+  .intro {
+    max-width: 95vw;
+    padding: 0.75rem;
+  }
+
+  .intro article:first-of-type {
+    margin-top: 3vh;
+  }
+
+  .intro article {
+    margin-bottom: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+
+  .intro article h2 {
+    font-size: 22px;
+  }
+
+  .resultados {
+    width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .button-theme {
+    padding: 6px;
+  }
+
+  .footer {
+    padding: 0.75rem;
+    font-size: 14px;
+  }
+
 }

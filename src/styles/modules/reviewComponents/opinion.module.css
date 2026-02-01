@@ -33,3 +33,42 @@
 .opinionConclusiones h3 {
     font-size: 24px;
 }
+
+@media (max-width: 768px) {
+
+  .opinionHistoria,
+  .opinionLogros,
+  .opinionMecanicas,
+  .opinionConclusiones {
+    font-size: 16px;
+  }
+
+  .opinionSection h2 {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+
+  .opinionSection h3,
+  .opinionHistoria h3,
+  .opinionLogros h3,
+  .opinionMecanicas h3,
+  .opinionConclusiones h3 {
+    font-size: 18px;
+  }
+
+  .opinionHistoria p,
+  .opinionLogros p,
+  .opinionMecanicas p,
+  .opinionConclusiones p {
+    margin-top: 12px;
+  }
+
+  .opinionHistoria p:last-child,
+  .opinionLogros p:last-child,
+  .opinionMecanicas p:last-child,
+  .opinionConclusiones p:last-child {
+    margin-bottom: 12px;
+  }
+
+}

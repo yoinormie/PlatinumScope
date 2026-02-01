@@ -13,8 +13,7 @@ export function Recursos({ recursos }: { recursos?: Recurso[] }) {
             {r.tipo === "video" && r.enlace ? (
               // ---- VIDEO ----
               <iframe
-                width="23vw"
-                height="30vh"
+
                 src={`https://www.youtube.com/embed/${new URL(r.enlace).pathname.split("/").pop()}`}
                 title={r.titulo || "Video"}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
