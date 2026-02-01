@@ -1,4 +1,4 @@
-import "../index.css"
+import "../styles/general/index.css"
 
 function Header() {
   return (

@@ -1,4 +1,4 @@
-import '../index.css';
+import '../styles/general/index.css';
 
 function Intro() {
   return (
@@ -30,6 +30,7 @@ function Intro() {
           a hacer proyectos personales de temáticas que me gustan, pero sin
           dejar de mejorar mi portfolio ni mis habilidades de programador.
         </p>
+        <br/>
         <p>
           Lo único que sí que os puede ser útil es mi experiencia jugando y
           platinando los juegos que tengo (y así veis si os compensa
