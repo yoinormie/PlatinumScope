@@ -7,7 +7,7 @@ import { Recursos } from "./Recursos";
 import { EnlacesCompra } from "./Recursos";
 import { Sinopsis } from "./Sinopsis";
 import SearchBar from "../SearchBar";
-import '../../review.css'
+import '../../styles/general/review.css'
 import Header from "../Header";
 
 export default function ReviewPage() {
