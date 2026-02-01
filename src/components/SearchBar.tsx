@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom"; // IMPORTANTE
 import Fuse from "fuse.js";
 import type { Review } from "../types/Reviews";
 import ThemeToggle from "./ThemeToggle";
-import "../styles/general/index.css"
 import styles from '../styles/modules/searchBar.module.css'
 
 export default function SearchBar() {
