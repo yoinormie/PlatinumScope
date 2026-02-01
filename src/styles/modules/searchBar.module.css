@@ -44,3 +44,27 @@
     padding: 0.5rem;
     font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+
+  .barraContenido {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .tituloBuscador {
+    font-size: 1rem;
+  }
+
+  .buscadorContenedor {
+    width: 90vw;
+  }
+
+  .buscador {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+}

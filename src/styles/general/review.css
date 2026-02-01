@@ -153,3 +153,72 @@ footer {
   padding: 1rem;
 
 }
+
+@media (max-width: 768px) {
+
+  .review-container {
+    width: 95%; /* Cambia a un valor que no use márgenes negativos */
+    margin: 2vh auto; /* Centrado simple */
+    padding: 14px;
+    overflow: hidden; /* <--- AÑADE ESTO: Evita que los hijos la rompan */
+    box-sizing: border-box;
+  }
+
+  /* Si tienes el pseudo-elemento ::before con valores negativos, quítalos en móvil */
+  .review-container::before {
+    left: 0;
+    right: 0;
+    top: -1vh;
+    bottom: -1vh;
+  }
+
+  .barra-buscador {
+    padding-bottom: 3vh;
+  }
+
+  .buscador {
+    width: 90vw;
+    font-size: 0.95rem;
+  }
+
+  .review-container {
+    width: 95%;
+    padding: 14px;
+    border-width: 3px;
+  }
+
+  .review-container::before {
+    top: -2vh;
+    bottom: -2vh;
+    left: -3vw;
+    right: -3vw;
+    border-width: 5px;
+  }
+
+  main {
+    width: 100%;
+    padding: 2vh 4vw;
+    margin: 2vh auto;
+  }
+
+  main h2 {
+    font-size: 22px;
+  }
+
+  .titulo {
+    font-size: 30px;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+  }
+
+  .imagen-section img {
+    width: 90vw;
+    height: 30vh;
+  }
+
+  footer {
+    padding: 0.75rem;
+    font-size: 14px;
+  }
+
+}
