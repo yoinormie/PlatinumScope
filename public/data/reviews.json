@@ -138,5 +138,42 @@
         "enlace": "https://store.steampowered.com/app/1652680/GAMEexe/"
       }
     ]
+  },
+  {
+    "id": "emily_is_away",
+    "titulo": "Emily is Away",
+    "imagen": "../assets/reviewImages/emily_is_away.jpg",
+    "ficha_tecnica": {
+      "plataformas": "PC",
+      "desarrollador": " Kyle Seeley",
+      "editor": " Kyle Seeley",
+      "requisitos_minimos": {
+        "so": "Windows XP Service Pack 2+",
+        "cpu": "Intel Pentium 4 o posterior",
+        "ram": "512 MB",
+        "gpu": "No mencionado",
+        "disco": "No mencionado"
+      },
+      "sinopsis": "¿Recuerdas la época anterior a Facebook y Skype? Cuando Windows XP era lo último y AIM era el rey. Revive esa época con Emily is Away. Crea un nombre de usuario y navega por la información de tus amigos en este juego que combina chatbot y aventura. Explora tu relación con Emily, una compañera de instituto, en una narrativa ramificada en la que tú eliges el desenlace. Y lo más importante, cambia el color de tu texto a verde lima para que todos sepan que eres el chico más guay del instituto."
+    },
+    "opinion": {
+      "historia": "Para mí, la historia es un poco cliché de película romántica de fin de semana, pero gracias al formato en el que está me pareció bastante buena y entretenida. También hay que decir que no es muy larga, pero cada momento lo vale.\n\nTrata sobre un par de amigos que se hablan desde que acaban el instituto hasta que terminan la carrera universitaria. Transcurre año a año cada conversación y es una charla de qué esta haciendo la otra persona. Se nota que tú estas enamorado de Emily, pero no tienes la valentía de confesarte. \n\nNo me acuerdo mucho de la historia, ya que lo jugué hace tiempo, pero recuerdo que fue una historia muy bonita y recomendable.",
+      "logros": "Los logros son sencillos. No son extremadamente complicado, ya que solo tienes que pasarte la historia y usar los iconos ocultos (un vídeo de youtube y un poco de tiempo). ",
+      "mecanicas": "No es que sea el juego del año en este sentido, pero lo de teclear tú mismo para que teclee el personaje es un detalle bastante bonito.\n\nAparte de esto, al ser una novela gráfica sin interacciones como caminar por el mundo o cosas de ese estilo, no hay nada más que añadir.",
+      "conclusiones": "Siendo una novela gráfica corta y gratuita, creo que es bastante recomendable. Aparte, el platino de este juego es bastante sencillo de conseguir. \n\nCon todo esto, yo recomiendo jugarlo para un descanso de juegos como LOL o CSGO (pero no es obligatorio ;) )."
+    },
+    "recursos": [
+      {
+        "tipo": "video",
+        "enlace": "https://youtu.be/E0IULgkL4nA?si=FMhwTulCKwaNwEEK",
+        "autor": "ThePCxbox"
+      }
+    ],
+    "enlaces_compra": [
+      {
+        "plataforma": "Steam",
+        "enlace": "https://store.steampowered.com/app/417860/Emily_is_Away/?l=spanish"
+      }
+    ]
   }
 ]
